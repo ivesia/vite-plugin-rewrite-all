@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-rewrite-all",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -12,6 +12,10 @@
   "author": "AlphaTr",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "vite",
+    "vite-plugin"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts"
