@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-rewrite-all",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "license": "MIT",
+  "author": "AlphaTr",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivesia/vite-plugin-rewrite-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivesia/vite-plugin-rewrite-all/issues"
+  },
+  "homepage": "https://github.com/ivesia/vite-plugin-rewrite-all",
+  "devDependencies": {
+    "@types/connect-history-api-fallback": "^1.3.3",
+    "@types/express-serve-static-core": "*",
+    "tsup": "^3.12.1",
+    "typescript": "^4.1.5",
+    "vite": "^2.0.2"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0"
+  },
+  "peerDependencies": {
+    "vite": "^2.0.2"
+  }
+}
