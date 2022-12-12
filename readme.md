@@ -1,6 +1,6 @@
 # vite-plugin-rewrite-all [![npm](https://img.shields.io/npm/v/vite-plugin-rewrite-all.svg)](https://www.npmjs.com/package/vite-plugin-rewrite-all)
 
-Vite 2 plugin that fix dev server not rewriting the path includes a dot [vite#2190](https://github.com/vitejs/vite/issues/2190)
+Vite plugin that fix dev server not rewriting the path includes a dot [vite#2190](https://github.com/vitejs/vite/issues/2190)
 
 ### Installation
 
